@@ -112,13 +112,15 @@ public class Main {
 		String logConfFile = "";
 
 			// 운영과 개발의 자동 스위칭을 위한 조건 설정
-			if(!"192.168.1.19".equals(InetAddress.getLocalHost().getHostAddress()) &&
+			/*if(!"192.168.1.19".equals(InetAddress.getLocalHost().getHostAddress()) &&
 				!"121.152.181.163".equals(InetAddress.getLocalHost().getHostAddress())	) {
-				 logConfFile = ConstDef.USER_DIR + ConstDef.LOG_CONF_PATH;
+
 			 }else{
 				 logConfFile = ConstDef.USER_DIR + ConstDef.LOG_CONF_PATH_DEV;
 			 }
+			*/
 
+			logConfFile = ConstDef.USER_DIR + ConstDef.LOG_CONF_PATH;
 			System.setProperty(XmlConfigurationFactory.CONFIGURATION_FILE_PROPERTY, logConfFile);
 			logger = LogManager.getLogger(Main.class);
 
