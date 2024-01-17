@@ -19,8 +19,12 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import kw.lws.webservice.WsLwsWaterNowVo;
+import kw.lws.webservice.WsLwsWaterNow_WsLwsWaterNowServicePort_Client;
+import kw.lws.webservice.wslwswaternowWslwswaternowserviceportClient;
 import mone.common.conf.ConfigManager;
 import mone.common.conf.ConstDef;
+import mone.common.util.SpringContextUtil;
 import mone.common.util.Utils;
 import mone.db.conn.DbManager;
 import mone.db.dto.SystMngmAgtSttDTO;
@@ -190,5 +194,39 @@ public class PrcsDAO {
 
 		return result;
 	}
+
+
+	public static List<WsLwsWaterNowVo> ansim_data_oper1(String finalChkDt) throws Exception {
+
+		 	 java.util.List<kw.lws.webservice.WsLwsWaterNowVo> result = new ArrayList<WsLwsWaterNowVo>();
+
+		 	//XML 호출 후 데이터 매핑
+		 	wslwswaternowWslwswaternowserviceportClient wsLwsWaterNowService
+			= (wslwswaternowWslwswaternowserviceportClient) SpringContextUtil.getBean("WsLwsWaterNowService");
+
+			logger.debug(" ::::::::::::: 수돗물안심확인제결과조회2 chk api Start ::::::::::::: ");
+			result = wsLwsWaterNowService.getSAFETYCNFIRM2("70670B9F034DEAAAE5B4","",finalChkDt,"", "");
+
+
+			//GetINSDHOUSPIPNGDGNSSCLNSG2
+			//옥내배관진단세척결과조회2
+
+		return result;
+	}
+
+	public static List<WsLwsWaterNowVo> ansim_data_oper2(String finalChkDt) throws Exception {
+
+	 	 java.util.List<kw.lws.webservice.WsLwsWaterNowVo> result = new ArrayList<WsLwsWaterNowVo>();
+
+	 	//XML 호출 후 데이터 매핑
+	 	wslwswaternowWslwswaternowserviceportClient wsLwsWaterNowService
+		= (wslwswaternowWslwswaternowserviceportClient) SpringContextUtil.getBean("WsLwsWaterNowService");
+
+		logger.debug(" ::::::::::::: 옥내배관진단세척결과조회2 chk api Start ::::::::::::: ");
+		result = wsLwsWaterNowService.GetINSDHOUSPIPNGDGNSSCLNSG2("70670B9F034DEAAAE5B4","",finalChkDt,"", "");
+
+
+	return result;
+}
 
 }

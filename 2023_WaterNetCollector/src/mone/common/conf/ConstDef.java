@@ -95,8 +95,13 @@ public class ConstDef {
 	public static class TiberoDB {
 		public static String NAMESPACE = "TiberoDB";
 
+		/*Ansim API 최종 데이터 확인*/
+		public static final String SQLID_CHECK_ANSIMAPI_FINAL_DATE 		= "check_ansimApi_final_date";
+
 		public static final String SQLID_TIBERO_DB_CONN_CHECK 			= "tibero_db_conn_check";
 		public static final String SQLID_SYST_MNGM_AGT_STT 				= "insert_syst_mngm_agt_stt";
+
+		/*중점관리지역 최종 데이터 확인*/
 		public static final String SQLID_CHECK_FINAL_DATE 				= "check_final_date";
 
 
@@ -104,9 +109,13 @@ public class ConstDef {
 		public static final String SQLID_INSERT_VW_QW_WQMSM				= "insert_vw_qw_wqmsm";
 
 
-		public static final String SQLID_INSERT_ANSIM_DATA				= "insert_insert_ansim_data";
+		public static final String SQLID_INSERT_INSDHOUSPIPNGDGNSSCLNSG2= "insert_insdhouspipngdgnssclnsg2";
+		public static final String SQLID_INSERT_SAFETYCNFIRM2			= "insert_safetycnfirm2";
+
 
 	}
+
+
 
 	/**
 	 * API 결과 코드
@@ -114,40 +123,7 @@ public class ConstDef {
 	 *
 	 */
 	public static class ApiResultCode {
-		// 정상
-		public static String NORMAL_CODE = "00";
-		// 어플리케이션 에러
-		public static String APPLICATION_ERROR = "01";
-		// 데이터베이스 에러
-		public static String DB_ERROR = "02";
-		// 데이터없음 에러
-		public static String NODATA_ERROR = "03";
-		// HTTP 에러
-		public static String HTTP_ERROR = "04";
-		// 서비스 연결실패 에러
-		public static String SERVICETIMEOUT_ERROR = "05";
-		// 잘못된 요청 파라메터 에러
-		public static String INVALID_REQUEST_PARAMETER_ERROR = "10";
-		// 필수요청 파라메터가 없음
-		public static String NO_MANDATORY_REQUEST_PARAMETERS_ERROR = "11";
-		// 해당 오픈API서비스가 없거나 폐기됨
-		public static String NO_OPENAPI_SERVICE_ERROR = "12";
-		// 서비스 접근거부
-		public static String SERVICE_ACCESS_DENIED_ERROR = "20";
-		// 일시적으로 사용할 수 없는 서비스 키
-		public static String TEMPORARILY_DISABLE_THE_SERVICEKEY_ERROR = "21";
-		// 서비스 요청제한횟수 초과에러
-		public static String LIMITED_NUMBER_OF_SERVICE_REQUESTS_EXCEEDS_ERROR = "22";
-		// 등록되지 않은 서비스키
-		public static String SERVICE_KEY_IS_NOT_REGISTERED_ERROR = "30";
-		// 기한만료된 서비스키
-		public static String DEADLINE_HAS_EXPIRED_ERROR = "31";
-		// 등록되지 않은 IP
-		public static String UNREGISTERED_IP_ERROR = "32";
-		// 서명되지 않은 호출
-		public static String UNSIGNED_CALL_ERROR = "33";
-		// 기타에러
-		public static String UNKNOWN_ERROR = "99";
+
 
 	}
 

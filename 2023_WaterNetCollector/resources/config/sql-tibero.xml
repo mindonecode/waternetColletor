@@ -37,7 +37,6 @@
 	</select>
 
 
-
 	<insert id="insert_vw_qw_wqmsm" parameterType="mone.db.dto.TiberoResDTO$vw_qw_wqmsm">
 
 		 MERGE INTO IF_VW_QW_WQMSM
@@ -332,5 +331,113 @@
 				)
 	</insert>
 
+
+	<select id="check_ansimApi_final_date" resultType="String" parameterType="java.util.Map">
+      select * from (
+        select * from (
+			select * from (
+					select TO_CHAR(RQSTDT, 'YYYY-MM-DD') AS RQSTDT
+						from	WATERNET.IF_COLT_ANSIM_API
+						where	1=1
+							<choose>
+								<when test="chkTypeNm == 'SAFETYCNFIRM2' ">
+									and DATASET      = 'SAFETYCNFIRM2'
+								</when>
+								<when test="chkTypeNm == 'INSDHOUSPIPNGDGNSSCLNSG2' ">
+									and DATASET      = 'INSDHOUSPIPNGDGNSSCLNSG2'
+								</when>
+							</choose>
+							<if test="SelectFromDt != null">
+								<!-- 설정일을 기준으로 가장최신 데이터 부터 데이터를 조회 할 수 있도록 함 -->
+								and RQSTDT  >= to_date(#{SelectFromDt},'YYYY-MM-DD')
+							</if>
+							<if test="SelectEndDt != null">
+								and to_date(#{SelectEndDt},'YYYY-MM-DD')  >= RQSTDT
+							</if>
+						order by RQSTDT desc
+				)A WHERE rownum = 1
+				union
+			select '2023-01-01' as RQSTDT FROM DUAL
+		) B order by RQSTDT desc
+	)C WHERE rownum = 1
+
+	</select>
+
+
+
+	<insert id="insert_insdhouspipngdgnssclnsg2" parameterType="mone.db.dto.AnsimApiResDTO">
+				MERGE INTO IF_COLT_ANSIM_API
+				USING DUAL
+				ON (		RQSTDT       = #{rqstdt}
+					AND  	DATASET      = 'INSDHOUSPIPNGDGNSSCLNSG2')
+				WHEN MATCHED THEN
+					UPDATE
+						SET
+							 FNCTLCNM     = #{fnctlcnm}
+							,INSPCTDIVNM  = #{inspctdivnm}
+							,PRCSSTATNM   = #{prcsstatnm}
+							,RSTNM        = #{rstnm}
+							,CSTMRNO      = #{cstmrno}
+							,VISITINSPCTDT= #{visitinspctdt}
+				WHEN NOT MATCHED THEN
+					INSERT (
+							 DATASET
+							,FNCTLCNM
+							,INSPCTDIVNM
+							,PRCSSTATNM
+							,RSTNM
+							,CSTMRNO
+							,VISITINSPCTDT
+							,RQSTDT
+					)
+					VALUES (
+							 'INSDHOUSPIPNGDGNSSCLNSG2'
+							,#{fnctlcnm}
+							,#{inspctdivnm}
+							,#{prcsstatnm}
+							,#{rstnm}
+							,#{cstmrno}
+							,#{visitinspctdt}
+							,#{rqstdt}
+					)
+
+		</insert>
+
+		<insert id="insert_safetycnfirm2" parameterType="mone.db.dto.AnsimApiResDTO">
+				MERGE INTO IF_COLT_ANSIM_API
+				USING DUAL
+				ON (		RQSTDT       = #{rqstdt}
+					AND  	DATASET      = 'SAFETYCNFIRM2')
+				WHEN MATCHED THEN
+					UPDATE
+						SET  FNCTLCNM     = #{fnctlcnm}
+							,INSPCTDIVNM  = #{inspctdivnm}
+							,PRCSSTATNM   = #{prcsstatnm}
+							,RSTNM        = #{rstnm}
+							,CSTMRNO      = #{cstmrno}
+							,VISITINSPCTDT= #{visitinspctdt}
+				WHEN NOT MATCHED THEN
+					INSERT (
+							 DATASET
+							,FNCTLCNM
+							,INSPCTDIVNM
+							,PRCSSTATNM
+							,RSTNM
+							,CSTMRNO
+							,VISITINSPCTDT
+							,RQSTDT
+					)
+					VALUES (
+							 'SAFETYCNFIRM2'
+							,#{fnctlcnm}
+							,#{inspctdivnm}
+							,#{prcsstatnm}
+							,#{rstnm}
+							,#{cstmrno}
+							,#{visitinspctdt}
+							,#{rqstdt}
+					)
+
+		</insert>
 
 </mapper>

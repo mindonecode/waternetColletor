@@ -84,7 +84,7 @@ public class AnsimApiScheduleManager {
 
 				//API 연계 스케쥴러 시작
 				try {
-					System.out.println(" ::::::::::::::::  ansim test ::::::: ");
+					System.out.println(" ::::::::::::::::  ansim API Start ::::::: ");
 					QuartzCronScheduler.getInstance().schedule(AnsimApiJob.class, cronExpr, jobNm, cronTriggerNm, group);
 				} catch (Exception e) {
 					System.out.println("Exception Message :: >>>>>>>> :: "  + e.getMessage() );
