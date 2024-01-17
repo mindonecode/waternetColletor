@@ -38,43 +38,6 @@ public class AnsimApiJob implements Job {
 	public AnsimApiJob() {
 	}
 
-	public static String selectFinalDb(String TbNm) throws Exception {
-		SqlSession session = null;
-		String resource   = "config" + File.separator + ConfigManager.getProps("tibero.mybatis.conf.name");
-        Reader reader 	= Resources.getResourceAsReader(resource);
-        SqlSessionFactory sqlMapper = new SqlSessionFactoryBuilder().build(reader);
-        String result = "";
-
-		String sqlId = String.format("%s.%s", ConstDef.TiberoDB.NAMESPACE, ConstDef.TiberoDB.SQLID_CHECK_FINAL_DATE);
-		try {
-
-			if(DbManager.tiberoSudoDbConnVal < 0) 	{	logger.warn(" [tibero sudo] db conn NG..");		return null;	}
-			if(DbManager.tiberoDbConnVal < 0) {	logger.warn(" [tibero] db conn NG..");	return null;	}
-
-			session = sqlMapper.openSession();
-
-			Map<String, Object> resultMap = new HashMap<String, Object>();
-
-			resultMap.put("chkTablenm", TbNm);
-
-			resultMap.put("SelectFromDt", ConfigManager.getProps("tibero.select.from.date"));
-			resultMap.put("SelectEndDt", ConfigManager.getProps("tibero.select.end.date"));
-
-			result = session.selectOne(sqlId, resultMap);
-			session.commit();
-
-			//System.out.println(":::::::::::: " + TbNm + "   " + result );
-
-		} catch (Exception e) {
-			System.out.println("Exception Message"  + e.getClass().getSimpleName() );
-			e.printStackTrace();
-		}finally {
-			if(session!=null) {	session.close();}
-		}
-
-		return result;
-	}
-
 
 	public static String selectAnsimApiFinalDb(String TypeNm) throws Exception {
 		SqlSession session = null;
