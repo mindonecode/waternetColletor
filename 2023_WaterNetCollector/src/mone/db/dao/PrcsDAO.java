@@ -207,10 +207,6 @@ public class PrcsDAO {
 			logger.debug(" ::::::::::::: 수돗물안심확인제결과조회2 chk api Start ::::::::::::: ");
 			result = wsLwsWaterNowService.getSAFETYCNFIRM2("70670B9F034DEAAAE5B4","",finalChkDt,"", "");
 
-
-			//GetINSDHOUSPIPNGDGNSSCLNSG2
-			//옥내배관진단세척결과조회2
-
 		return result;
 	}
 
