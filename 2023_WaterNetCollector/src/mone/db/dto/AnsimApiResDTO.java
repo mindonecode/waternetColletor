@@ -9,13 +9,14 @@ import lombok.Data;
 @Data
 public class AnsimApiResDTO {
 
-	private String FNCTLCNM;
-	private String INSPCTDIVNM;
-	private String PRCSSTATNM;
-	private String RSTNM;
-	private String CSTMRNO;
-	private String VISITINSPCTDT;
-	private String RQSTDT;
+	private String dataset;
+	private String fnctlcnm;
+	private String inspctdivnm;
+	private String prcsstatnm;
+	private String rstnm;
+	private String cstmrno;
+	private String visitinspctdt;
+	private String rqstdt;
 
 
 }

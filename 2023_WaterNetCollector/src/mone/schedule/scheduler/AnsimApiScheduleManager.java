@@ -1,10 +1,5 @@
 package mone.schedule.scheduler;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.net.URLEncoder;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,10 +8,6 @@ import org.quartz.SchedulerException;
 
 import mone.common.conf.ConfigManager;
 import mone.common.conf.ConstDef;
-import mone.common.conf.ConstDef.EnumDateFormat;
-import mone.common.util.Utils;
-import mone.db.dao.PrcsDAO;
-import mone.db.dao.AnsimApiPrcsDAO;
 import mone.db.dto.AnsimApiReqDTO;
 import mone.schedule.job.AnsimApiJob;
 
@@ -84,7 +75,7 @@ public class AnsimApiScheduleManager {
 
 				//API 연계 스케쥴러 시작
 				try {
-					System.out.println(" ::::::::::::::::  ansim test ::::::: ");
+					System.out.println(" ::::::::::::::::  ansim API Start ::::::: ");
 					QuartzCronScheduler.getInstance().schedule(AnsimApiJob.class, cronExpr, jobNm, cronTriggerNm, group);
 				} catch (Exception e) {
 					System.out.println("Exception Message :: >>>>>>>> :: "  + e.getMessage() );

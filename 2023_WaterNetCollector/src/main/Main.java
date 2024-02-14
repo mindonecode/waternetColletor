@@ -148,7 +148,7 @@ public class Main {
 	private static void startScheduler() throws Exception {
 		startCollectDBScheduler();		// <==DB2DB Polling 스케쥴러
 
-		//startAnsimScheduler();			// <=APIPolling 스케쥴러
+		startAnsimScheduler();			// <=APIPolling 스케쥴러
 	}
 
 	private static void startCollectDBScheduler() throws Exception{

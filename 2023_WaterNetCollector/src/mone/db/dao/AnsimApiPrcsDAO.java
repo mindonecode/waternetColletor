@@ -11,6 +11,10 @@ import mone.common.conf.ConstDef;
 import mone.db.conn.DbManager;
 import mone.db.dto.TnProcsSttusDto;
 import mone.db.dto.AnsimApiReqDTO;
+import mone.db.dto.AnsimApiResDTO;
+import mone.db.dto.SystMngmAgtSttDTO;
+import mone.db.dto.TiberoResDTO;
+import mone.db.dto.TiberoSudoResDTO;
 
 /**
  * db 데이터 취득 및 갱신
@@ -28,102 +32,50 @@ public class AnsimApiPrcsDAO {
 	public AnsimApiPrcsDAO() {
 	}
 
+	public static void execAnsimApiData(List<kw.lws.webservice.WsLwsWaterNowVo> tagResultList, String apiType) throws Exception {
 
-	/**
-	 * 프로세스 상태 현황 & 이력 갱신
-	 * @param procs_sttus_code
-	 * @return
-	 */
-	public static int updateProcsStatus(String procs_sttus_code) throws Exception {
-		int result = -1;
+		SystMngmAgtSttDTO systMngmAgtStt = new SystMngmAgtSttDTO();
+		//systMngmAgtStt.setProcsSttusCd(ConstDef.TiberoDB.SQLID_SYST_MNGM_AGT_STT);
 
-
-			if(DbManager.tiberoDbConnVal < 0) {
-				logger.warn("db conn NG..");
-				return result;
-			}
-
-			TnProcsSttusDto param = new TnProcsSttusDto();
-			param.setProcs_id(ConstDef.TIBERO_PROCESS_ID);
-			param.setProcs_sttus_cd(procs_sttus_code);
-
-			// MERGE TN_PROCS_STTUS (프로세스 상태)
-			// result = mergeTnProcsSttus(param);
-
-			// INSERT TH_PROCS_STTUS (프로세스 상태이력)
-			insertThProcsSttus(param);
-
-
-		return result;
+		systMngmAgtStt.setProcsCnt(insertAnsimApiData(tagResultList, apiType));
+		//PrcsDAO.insertSystMngmAgtStt(systMngmAgtStt);
 	}
 
-	private static void insertThProcsSttus(TnProcsSttusDto param) {
-		// TODO Auto-generated method stub
-	}
-
-
-	/**
-	 * MERGE TN_PROCS_STTUS (프로세스 상태)
-	 * @param param
-	 * @return
-	 */
-	private static int mergeTnProcsSttus(TnProcsSttusDto param) throws Exception{
+	public static int insertAnsimApiData(List<kw.lws.webservice.WsLwsWaterNowVo> tagParams, String apiType) throws Exception{
 		SqlSession session = null;
-		String sqlId = String.format("%s.%s", ConstDef.TiberoDB.NAMESPACE, ConstDef.TiberoDB.SQLID_SYST_MNGM_AGT_STT);
+		String sqlId  = "";
 
-		int result = 0;
+		if("INSDHOUSPIPNGDGNSSCLNSG2".equals(apiType)) {
+			String.format("%s.%s", ConstDef.TiberoDB.NAMESPACE, ConstDef.TiberoDB.SQLID_INSERT_INSDHOUSPIPNGDGNSSCLNSG2);
+		}else if("INSERT_SAFETYCNFIRM2".equals(apiType)) {
+			String.format("%s.%s", ConstDef.TiberoDB.NAMESPACE, ConstDef.TiberoDB.SQLID_INSERT_SAFETYCNFIRM2);
+		}
+
+
+		int ins_chk = tagParams.size();
 
 			session = DbManager.getSqlSessionTibero();
-			result = session.update(sqlId, param);
-			session.commit();
 
+			kw.lws.webservice.WsLwsWaterNowVo ansimApi  = new  kw.lws.webservice.WsLwsWaterNowVo();
 
-		return result;
-	}
+			for(int i=0; i<tagParams.size(); i++) {
 
-	/**
-	 * SELECT Sudo
-	 * @return
-	 */
-	/*
-	public static List<AnsimApiReqDTO> selectSudo() throws Exception{
-		SqlSession session = null;
-		String sqlId = String.format("%s.%s", ConstDef.TiberoSudoDB.NAMESPACE, ConstDef.TiberoSudoDB.SQLID_SUDO_DATA);
+				ansimApi.setFnctlcnm (tagParams.get(i).getFnctlcnm());
+				ansimApi.setInspctdivnm(tagParams.get(i).getInspctdivnm());
+				ansimApi.setPrcsstatnm(tagParams.get(i).getPrcsstatnm());
+				ansimApi.setRstnm(tagParams.get(i).getRstnm());
+				ansimApi.setCstmrno(tagParams.get(i).getCstmrno());
+				ansimApi.setVisitinspctdt(tagParams.get(i).getVisitinspctdt());
+				ansimApi.setRqstdt(tagParams.get(i).getRqstdt());
 
-		List<AnsimApiReqDTO> resultList = null;
-
-			if(DbManager.tiberoSudoDbConnVal < 0) {
-				logger.warn("db conn NG..");
-				return resultList;
+				session.insert(sqlId, ansimApi);
 			}
 
-			logger.debug(String.format("SQLID:%s, getSize:%s", sqlId, resultList));
-
-			session = DbManager.getSqlSessionTiberoSudo();
-			resultList = session.selectList(sqlId);
 			session.commit();
 
 
-		return resultList;
-	}
-	 */
 
-
-	public static void insertAnsimApi(Map<String, Object> dataMap) throws Exception{
-		SqlSession session = null;
-		String sqlId = String.format("%s.%s", ConstDef.TiberoDB.NAMESPACE, ConstDef.TiberoDB.SQLID_INSERT_ANSIM_DATA);
-
-
-			if(DbManager.tiberoDbConnVal < 0) {
-				logger.warn("db conn NG..");
-				return;
-			}
-
-			session = DbManager.getSqlSessionTibero();
-			int result = session.insert(sqlId, dataMap);
-			session.commit();
-			//logger.debug(" [안심확인제 api]db commit insertAnsimApi() " + result);
-
+		return ins_chk;
 	}
 
 
