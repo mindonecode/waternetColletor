@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="TiberoSudoDB">
+
+	<!-- select -->
+	<select id="tibero_sudo_db_conn_check" resultType="Integer">
+        select 1 as TT from DUAL
+	</select>
+
+
+
+	<select id="select_vw_qw_emphs_manage_area" resultType="mone.db.dto.TiberoSudoResDTO$vw_qw_emphs_manage_area" parameterType="java.util.Map">
+		 SELECT
+			EMPHS_MANAGE_AREA_CD,
+			EMPHS_MANAGE_AREA_NM,
+			WUB_CD,
+			WUB_NM,
+			APPN_DE,
+			ABL_DE,
+			USE_YN,
+			USE_CD_NM,
+			to_char(INPUT_DT, 'YYYY-MM-DD') as INPUT_DT,
+			to_char(UPDT_DT, 'YYYY-MM-DD') as UPDT_DT,
+			RM,
+			CHANGE_YM,
+			DETAIL_MAP_ATCHMNFL_NO,
+			SPOT_PHOTO_ATCHMNFL_NO,
+			LEGALDONG_CD,
+			LEGALDONG_ADDR,
+			RN_CD,
+			RN_ADDR,
+			POPSRV,
+			INSPCT_CO,
+			INSPCT_WQY_MDAT_PRVONSH,
+			STD_CO
+		FROM
+			IF_VW_QW_EMPHS_MANAGE_AREA
+		WHERE UPDT_DT >= to_date(#{updtDt}, 'YYYY-MM-DD')
+	</select>
+
+	<select id="select_vw_qw_wqmsm" resultType="mone.db.dto.TiberoSudoResDTO$vw_qw_wqmsm" parameterType="java.util.Map">
+		  SELECT
+				MESURE_INFO_NO,
+				FCLTS_NO,
+				FCLTY_NM,
+				FCLTS_ADDR,
+				INSPCT_DE,
+				INSPCT_SE_CD,
+				INSPCT_SE_NM,
+				INSPCT_ENGN_CD,
+				INSPCT_ENGN_NM,
+				WTQLT_STDR_DE,
+				INSPCT_PNTTM_CD,
+				INSPCT_PNTTM_NM,
+				INSPCT_MN,
+				INSPCT_ODR,
+				PICK_DE,
+				INSPCT_IEM_CO,
+				LEGALDONG_CD,
+				LEGALDONG_NM,
+				MESURE_SPOT_DETAIL_ADDR,
+				RN_CD,
+				RN_ADDR,
+				GNRL_ENLF_SE_CD,
+				GNRL_ENLF_SE_NM,
+				WSP_CRSE_CD,
+				WSP_CRSE_NM,
+				DELETE_YN,
+				DELETE_NM,
+				WATSRC_SE_CD,
+				WATSRC_SE_NM,
+				WSP_MTHD_CD,
+				WSP_MTHD_NM,
+				PLANT_CD,
+				PLANT_NM,
+				LAY_CD,
+				LAY_NM,
+				FCT_SE_CD,
+				FCT_SE_NM,
+				to_char(INPUT_DT, 'YYYY-MM-DD') INPUT_DT,
+				to_char(UPDT_DT, 'YYYY-MM-DD') UPDT_DT,
+				WUB_CD,
+				WUB_NM,
+				CNFIRM_SE_CD,
+				CNFIRM_SE_NM,
+				EMPHS_MANAGE_AREA_CD,
+				EMPHS_MANAGE_AREA_NM,
+				GRDCT_PBLICTE_DE,
+				INSPCT_IEM_CD,
+				INSPCT_IEM_NM,
+				STDR_1_VAL,
+				STDR_2_VAL,
+				DCMLPOINT_VAL,
+				EXCS_NM,
+				EXCS_CAUSE_CD,
+				EXCS_CAUSE_NM,
+				EXCS_CAUSE_CN,
+				MANAGT_CN,
+				MESURE_VAL,
+				MANAGT_COMPT_DE,
+				MANAGT_STTUS_CD,
+				MANAGT_STTUS_NM,
+				INHBTNT_NOTICE_YN,
+				INHBTNT_NOTICE_NM,
+				INSPCT_IEM_ALIAS,
+				STDR_1_UNIT_NM,
+				STDR_2_UNIT_NM
+			FROM
+				IF_VW_QW_WQMSM
+			WHERE UPDT_DT >= to_date(#{updtDt}, 'YYYY-MM-DD')
+	</select>
+
+
+
+</mapper>

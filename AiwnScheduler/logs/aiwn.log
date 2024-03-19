@@ -1,0 +1,1697 @@
+[2024-03-19 09:23:39][INFO][main.Main]success load log file
+[2024-03-19 09:23:39][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 09:23:39][INFO][main.Main]process run!
+[2024-03-19 09:23:39][INFO][main.Main]pid@hostname:13624@jwmoon
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 09:23:39][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 09:23:39][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 09:23:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:23:39][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 09:23:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:23:39][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 09:23:39][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 09:24:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:24:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2023-01-01
+[2024-03-19 09:24:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:24:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:24:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-01-01
+[2024-03-19 09:24:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:24:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:24:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:25:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 09:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:25:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 09:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:25:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:25:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:26:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 09:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:26:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 09:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:26:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:26:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:27:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:27:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 09:27:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:27:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:27:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 09:27:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:27:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:27:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:28:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 09:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:28:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 09:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:28:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:28:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:29:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 09:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:29:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 09:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:29:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:29:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:30:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 09:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:30:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 09:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:30:39][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 09:30:39][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 09:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:31:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 09:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 09:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 09:31:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 09:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:22:12][INFO][main.Main]success load log file
+[2024-03-19 10:22:12][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 10:22:12][INFO][main.Main]process run!
+[2024-03-19 10:22:12][INFO][main.Main]pid@hostname:29176@jwmoon
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 10:22:12][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 10:22:12][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 10:22:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:22:12][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 10:22:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:23:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:23:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:24:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:24:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:25:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:25:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:26:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:26:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:27:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:27:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:28:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:28:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:29:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:29:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:30:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:30:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:31:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:31:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:32:12][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:32:12][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:33:26][INFO][main.Main]success load log file
+[2024-03-19 10:33:26][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 10:33:26][INFO][main.Main]process run!
+[2024-03-19 10:33:26][INFO][main.Main]pid@hostname:30452@jwmoon
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 10:33:26][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 10:33:26][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 10:33:26][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:33:26][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 10:33:26][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 10:33:26][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:34:11][INFO][main.Main]success load log file
+[2024-03-19 10:34:11][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 10:34:11][INFO][main.Main]process run!
+[2024-03-19 10:34:11][INFO][main.Main]pid@hostname:4528@jwmoon
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 10:34:11][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 10:34:11][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 10:34:11][ERROR][mone.db.conn.TiberoSudoReconnectThread]Exception tiberoSudoDbConnVal 1st
+[2024-03-19 10:34:11][INFO][mone.db.conn.TiberoSudoReconnectThread](NG)disconnected db, try connection ::: TiberoSudoDB 
+[2024-03-19 10:34:11][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 10:34:29][INFO][main.Main]success load log file
+[2024-03-19 10:34:29][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 10:34:29][INFO][main.Main]process run!
+[2024-03-19 10:34:29][INFO][main.Main]pid@hostname:10012@jwmoon
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 10:34:29][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 10:34:29][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 10:34:29][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:34:30][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 10:34:30][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:34:30][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 10:34:30][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 10:35:29][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:35:30][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:36:29][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:36:30][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:36:51][INFO][main.Main]success load log file
+[2024-03-19 10:36:51][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 10:36:51][INFO][main.Main]process run!
+[2024-03-19 10:36:51][INFO][main.Main]pid@hostname:4652@jwmoon
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 10:36:51][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 10:36:51][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 10:36:52][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:36:52][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 10:36:52][INFO][mone.db.conn.TiberoReconnectThread]Exception tiberoDbConnVal 1st
+[2024-03-19 10:36:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:36:52][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 10:36:52][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 10:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:37:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2023-01-01
+[2024-03-19 10:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:37:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-01-01
+[2024-03-19 10:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:37:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:37:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:38:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:38:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:38:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:38:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:39:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:39:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:39:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:39:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:40:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:40:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:40:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:40:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:41:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:41:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:41:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:41:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:42:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:42:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:42:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:42:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:43:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:43:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:43:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:43:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:44:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:44:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:44:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:44:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:45:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:45:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:45:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:45:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:46:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:46:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:46:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:46:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:47:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:47:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:47:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:47:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:48:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:48:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:48:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:48:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:49:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:49:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:49:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:49:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:50:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:50:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:50:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 10:50:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 10:51:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:51:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 10:51:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 10:51:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 10:51:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 10:51:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:12:27][INFO][main.Main]success load log file
+[2024-03-19 11:12:27][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:12:27][INFO][main.Main]process run!
+[2024-03-19 11:12:27][INFO][main.Main]pid@hostname:1552@jwmoon
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:12:27][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:12:27][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:12:27][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:12:27][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:12:27][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:12:27][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:13:00][INFO][main.Main]success load log file
+[2024-03-19 11:13:00][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:13:00][INFO][main.Main]process run!
+[2024-03-19 11:13:00][INFO][main.Main]pid@hostname:24724@jwmoon
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:13:00][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:13:00][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:13:00][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:13:00][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:13:00][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:13:28][INFO][main.Main]success load log file
+[2024-03-19 11:13:28][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:13:28][INFO][main.Main]process run!
+[2024-03-19 11:13:28][INFO][main.Main]pid@hostname:29192@jwmoon
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:13:28][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:13:28][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:13:28][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:13:28][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:13:28][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:13:28][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:13:28][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 11:14:28][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:14:28][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:15:28][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:15:28][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:15:56][INFO][main.Main]success load log file
+[2024-03-19 11:15:56][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:15:56][INFO][main.Main]process run!
+[2024-03-19 11:15:56][INFO][main.Main]pid@hostname:12416@jwmoon
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:15:56][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:15:56][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:15:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:15:56][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:15:56][INFO][mone.db.conn.TiberoReconnectThread]Exception tiberoDbConnVal 1st
+[2024-03-19 11:15:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:15:56][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:15:56][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 11:16:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:16:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:17:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:17:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:18:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:18:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:19:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:19:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:20:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:20:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:21:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:21:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:22:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:22:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:23:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:23:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:24:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:24:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:25:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:25:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:26:56][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:26:56][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:27:53][INFO][main.Main]success load log file
+[2024-03-19 11:27:53][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:27:53][INFO][main.Main]process run!
+[2024-03-19 11:27:53][INFO][main.Main]pid@hostname:31760@jwmoon
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:27:53][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:27:53][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:27:53][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:27:53][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:27:53][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:27:53][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:27:53][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 11:28:53][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:28:53][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:29:49][INFO][main.Main]success load log file
+[2024-03-19 11:29:49][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:29:49][INFO][main.Main]process run!
+[2024-03-19 11:29:49][INFO][main.Main]pid@hostname:26644@jwmoon
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:29:49][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:29:49][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:29:49][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:29:49][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:29:49][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:30:00][INFO][main.Main]success load log file
+[2024-03-19 11:30:00][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:30:00][INFO][main.Main]process run!
+[2024-03-19 11:30:00][INFO][main.Main]pid@hostname:22512@jwmoon
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:30:00][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:30:00][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:30:00][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:30:00][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:30:00][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:30:00][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:31:37][INFO][main.Main]success load log file
+[2024-03-19 11:31:37][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:31:37][INFO][main.Main]process run!
+[2024-03-19 11:31:37][INFO][main.Main]pid@hostname:10708@jwmoon
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:31:37][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:31:37][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:31:37][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:31:37][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:31:37][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:31:37][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:31:37][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 11:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:32:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2023-01-01
+[2024-03-19 11:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:32:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-01-01
+[2024-03-19 11:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:32:37][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:32:37][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:33:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 11:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:33:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 11:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:33:01][INFO][mone.schedule.job.CollectData]:::::::::: SudoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:01][INFO][mone.schedule.job.CollectData]:::::::::: TiberoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:01][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error updating database.  Cause: org.apache.ibatis.executor.ExecutorException: Executor was closed.
+### The error may exist in config/sql-tibero.xml
+### The error may involve TiberoDB.insert_vw_qw_wqmsm_test
+### The error occurred while executing an update
+### Cause: org.apache.ibatis.executor.ExecutorException: Executor was closed.
+[2024-03-19 11:33:06][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 전:false
+[2024-03-19 11:33:06][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 후 :true
+[2024-03-19 11:33:06][INFO][mone.schedule.job.CollectData]:::::::::: SudoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:06][INFO][mone.schedule.job.CollectData]:::::::::: TiberoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:06][WARN][mone.schedule.job.CollectData] [tibero] db conn NG..
+[2024-03-19 11:33:06][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 null
+[2024-03-19 11:33:06][WARN][mone.schedule.job.CollectData] [tibero] db conn NG..
+[2024-03-19 11:33:06][WARN][mone.db.dao.PrcsDAO] [tibero] db conn NG..
+[2024-03-19 11:33:06][ERROR][mone.schedule.job.CollectData]NullPointerExceptionCannot invoke "java.util.List.size()" because "tagParams" is null
+[2024-03-19 11:33:07][WARN][mone.db.dao.PrcsDAO]TiberoSudo [tibero] db conn NG..
+[2024-03-19 11:33:11][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 전:false
+[2024-03-19 11:33:11][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 후 :true
+[2024-03-19 11:33:11][INFO][mone.schedule.job.CollectData]:::::::::: SudoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:11][INFO][mone.schedule.job.CollectData]:::::::::: TiberoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:11][WARN][mone.schedule.job.CollectData] [tibero] db conn NG..
+[2024-03-19 11:33:11][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 null
+[2024-03-19 11:33:11][WARN][mone.schedule.job.CollectData] [tibero] db conn NG..
+[2024-03-19 11:33:11][WARN][mone.db.dao.PrcsDAO] [tibero] db conn NG..
+[2024-03-19 11:33:11][ERROR][mone.schedule.job.CollectData]NullPointerExceptionCannot invoke "java.util.List.size()" because "tagParams" is null
+[2024-03-19 11:33:16][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 전:false
+[2024-03-19 11:33:16][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 후 :true
+[2024-03-19 11:33:16][INFO][mone.schedule.job.CollectData]:::::::::: SudoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:16][INFO][mone.schedule.job.CollectData]:::::::::: TiberoDB 세션 끊기::::::::::::::
+[2024-03-19 11:33:16][WARN][mone.schedule.job.CollectData] [tibero] db conn NG..
+[2024-03-19 11:33:16][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 null
+[2024-03-19 11:33:16][WARN][mone.schedule.job.CollectData] [tibero] db conn NG..
+[2024-03-19 11:33:16][WARN][mone.db.dao.PrcsDAO] [tibero] db conn NG..
+[2024-03-19 11:33:16][ERROR][mone.schedule.job.CollectData]NullPointerExceptionCannot invoke "java.util.List.size()" because "tagParams" is null
+[2024-03-19 11:35:51][INFO][main.Main]success load log file
+[2024-03-19 11:35:51][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:35:51][INFO][main.Main]process run!
+[2024-03-19 11:35:51][INFO][main.Main]pid@hostname:27212@jwmoon
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:35:51][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:35:51][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:35:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:35:51][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:35:51][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:35:51][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:35:51][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 11:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:36:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 11:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:36:00][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:36:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 
+[2024-03-19 11:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:36:00][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:36:00][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error committing transaction.  Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+### Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+[2024-03-19 11:36:05][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 전:false
+[2024-03-19 11:36:05][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 후 :true
+[2024-03-19 11:36:05][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:36:05][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:36:05][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 
+[2024-03-19 11:36:05][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:36:05][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:36:05][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error committing transaction.  Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+### Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+[2024-03-19 11:36:10][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 전:false
+[2024-03-19 11:36:10][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 후 :true
+[2024-03-19 11:36:10][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:36:10][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:36:10][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 
+[2024-03-19 11:36:10][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:36:10][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:36:10][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error committing transaction.  Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+### Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+[2024-03-19 11:38:23][INFO][main.Main]success load log file
+[2024-03-19 11:38:23][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:38:23][INFO][main.Main]process run!
+[2024-03-19 11:38:23][INFO][main.Main]pid@hostname:12704@jwmoon
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:38:24][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:38:24][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:38:24][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:38:24][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:38:24][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:38:24][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 11:38:24][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 11:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:39:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 11:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 11:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:39:00][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:39:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 
+[2024-03-19 11:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 11:39:00][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 11:39:00][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error committing transaction.  Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+### Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+[2024-03-19 11:50:59][INFO][main.Main]success load log file
+[2024-03-19 11:50:59][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:50:59][INFO][main.Main]process run!
+[2024-03-19 11:50:59][INFO][main.Main]pid@hostname:19332@jwmoon
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:50:59][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:50:59][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:50:59][ERROR][mone.db.conn.TiberoSudoReconnectThread]Exception tiberoSudoDbConnVal 1st
+[2024-03-19 11:50:59][INFO][mone.db.conn.TiberoSudoReconnectThread](NG)disconnected db, try connection ::: TiberoSudoDB 
+[2024-03-19 11:50:59][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:50:59][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:50:59][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:51:21][INFO][main.Main]success load log file
+[2024-03-19 11:51:21][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:51:21][INFO][main.Main]process run!
+[2024-03-19 11:51:21][INFO][main.Main]pid@hostname:12188@jwmoon
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:51:21][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:51:21][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:51:21][ERROR][mone.db.conn.TiberoSudoReconnectThread]Exception tiberoSudoDbConnVal 1st
+[2024-03-19 11:51:21][INFO][mone.db.conn.TiberoSudoReconnectThread](NG)disconnected db, try connection ::: TiberoSudoDB 
+[2024-03-19 11:51:21][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:51:21][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 11:51:21][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 11:52:23][INFO][main.Main]success load log file
+[2024-03-19 11:52:23][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:52:23][INFO][main.Main]process run!
+[2024-03-19 11:52:23][INFO][main.Main]pid@hostname:25196@jwmoon
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:52:23][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:52:23][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:52:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:52:45][INFO][main.Main]success load log file
+[2024-03-19 11:52:45][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:52:45][INFO][main.Main]process run!
+[2024-03-19 11:52:45][INFO][main.Main]pid@hostname:22116@jwmoon
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:52:45][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:52:45][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:52:46][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:53:45][ERROR][mone.db.conn.TiberoSudoReconnectThread]Exception tiberoSudoDbConnVal 1st
+[2024-03-19 11:53:45][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:55:22][INFO][main.Main]success load log file
+[2024-03-19 11:55:22][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:55:22][INFO][main.Main]process run!
+[2024-03-19 11:55:22][INFO][main.Main]pid@hostname:25248@jwmoon
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:55:22][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:55:22][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:55:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:55:46][INFO][main.Main]success load log file
+[2024-03-19 11:55:46][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 11:55:46][INFO][main.Main]process run!
+[2024-03-19 11:55:46][INFO][main.Main]pid@hostname:3296@jwmoon
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 11:55:46][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 11:55:46][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 11:55:46][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 11:56:46][ERROR][mone.db.conn.TiberoSudoReconnectThread]Exception tiberoSudoDbConnVal 1st
+[2024-03-19 11:56:46][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:05:50][INFO][main.Main]success load log file
+[2024-03-19 13:05:50][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 13:05:50][INFO][main.Main]process run!
+[2024-03-19 13:05:50][INFO][main.Main]pid@hostname:6164@jwmoon
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 13:05:50][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 13:05:50][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 13:05:50][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:05:50][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 13:05:50][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:06:49][INFO][main.Main]success load log file
+[2024-03-19 13:06:49][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 13:06:49][INFO][main.Main]process run!
+[2024-03-19 13:06:49][INFO][main.Main]pid@hostname:14644@jwmoon
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 13:06:49][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 13:06:49][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 13:06:49][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:06:49][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 13:06:49][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 13:06:49][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:06:49][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 13:07:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:07:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:07:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:07:00][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 13:07:00][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error committing transaction.  Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+### Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+[2024-03-19 13:25:20][INFO][main.Main]success load log file
+[2024-03-19 13:25:20][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 13:25:20][INFO][main.Main]process run!
+[2024-03-19 13:25:20][INFO][main.Main]pid@hostname:26764@jwmoon
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 13:25:20][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 13:25:20][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 13:25:21][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:25:21][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 13:25:21][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:25:21][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 13:25:21][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 13:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:26:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:26:00][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 13:26:00][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error committing transaction.  Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+### Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+[2024-03-19 13:26:05][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 전:false
+[2024-03-19 13:26:05][ERROR][mone.schedule.job.CollectData]즉시 재시도 여부 설정 후 :true
+[2024-03-19 13:26:05][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:26:05][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 13:26:05][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 
+[2024-03-19 13:26:05][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:26:05][ERROR][mone.schedule.job.CollectData]Exception MessagePersistenceException
+[2024-03-19 13:26:05][ERROR][mone.schedule.job.CollectData]PersistenceException
+### Error committing transaction.  Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+### Cause: org.apache.ibatis.executor.ExecutorException: Cannot commit, transaction is already closed
+[2024-03-19 13:27:04][INFO][main.Main]success load log file
+[2024-03-19 13:27:04][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 13:27:04][INFO][main.Main]process run!
+[2024-03-19 13:27:04][INFO][main.Main]pid@hostname:26388@jwmoon
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 13:27:04][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 13:27:04][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 13:27:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:27:04][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 13:27:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:27:04][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 13:27:04][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 13:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:28:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:28:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:28:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:28:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:28:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:29:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:29:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:29:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:29:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:29:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:30:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:30:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:30:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:30:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:30:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:31:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:31:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:31:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:31:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:31:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:32:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:32:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:32:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:32:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:32:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:33:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:33:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:33:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:33:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:33:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:34:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:34:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:34:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:34:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:34:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:34:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:34:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:34:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:35:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:35:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:35:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:35:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:35:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:35:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:35:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:35:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:36:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:36:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:36:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:36:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:36:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:37:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:37:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:37:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:37:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:37:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:38:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:38:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:38:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:38:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:38:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:39:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:39:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:39:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:39:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:39:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:40:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:40:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:40:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:40:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:40:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:41:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:41:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:41:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:41:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:41:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:42:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:42:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:42:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:42:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:42:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:43:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:43:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:43:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:43:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:43:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:44:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:44:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:44:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:44:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:44:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:45:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:45:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:45:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:45:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:45:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:46:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:46:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:46:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:46:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:46:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:47:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:47:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:47:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:47:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:47:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:48:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:48:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:48:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:48:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:48:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:49:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:49:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:49:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:49:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:49:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:50:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:50:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:50:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:50:04][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:50:04][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:51:23][INFO][main.Main]success load log file
+[2024-03-19 13:51:23][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 13:51:23][INFO][main.Main]process run!
+[2024-03-19 13:51:23][INFO][main.Main]pid@hostname:31856@jwmoon
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 13:51:23][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 13:51:23][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 13:51:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:51:23][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 13:51:23][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 13:51:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:51:23][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 13:52:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:52:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2023-01-01
+[2024-03-19 13:52:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:52:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:52:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-01-01
+[2024-03-19 13:52:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:52:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:52:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:53:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:53:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:53:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:53:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:53:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:53:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:53:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:53:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:54:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:54:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:54:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:54:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:54:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:54:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:54:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:54:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:55:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:55:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:55:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:55:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:55:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:55:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:55:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:55:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:56:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:56:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:56:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:56:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:56:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:56:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:56:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:56:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:57:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:57:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:57:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:57:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:57:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:57:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:57:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:57:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:58:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:58:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:58:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:58:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:58:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:58:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:58:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:58:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 13:59:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:59:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 13:59:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 13:59:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:59:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 13:59:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 13:59:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 13:59:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:00:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:00:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:00:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:00:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:00:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:00:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:00:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:00:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:01:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:01:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:01:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:01:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:01:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:01:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:01:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:01:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:02:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:02:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:02:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:02:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:02:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:02:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:02:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:02:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:03:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:03:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:03:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:03:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:03:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:03:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:03:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:03:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:04:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:04:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:04:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:04:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:04:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:04:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:04:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:04:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:05:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:05:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:05:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:05:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:05:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:05:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:05:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:05:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:06:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:06:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:06:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:06:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:06:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:06:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:06:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:06:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:07:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:07:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:07:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:07:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:07:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:07:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:07:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:07:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:08:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:08:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:08:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:08:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:08:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:08:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:08:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:08:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:09:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:09:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:09:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:09:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:09:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:09:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:09:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:09:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:10:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:10:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:10:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:10:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:10:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:10:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:10:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:10:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:11:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:11:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:11:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:11:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:11:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:11:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:11:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:11:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:12:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:12:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:12:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:12:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:12:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:12:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:12:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:12:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:13:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:13:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:13:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:13:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:13:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:13:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:13:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:13:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:14:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:14:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:14:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:14:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:14:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:14:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:14:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:14:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:15:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:15:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:15:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:15:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:15:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:15:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:15:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:15:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:16:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:16:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:16:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:16:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:16:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:16:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:16:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:16:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:17:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:17:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:17:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:17:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:17:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:17:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:17:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:17:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:18:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:18:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:18:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:18:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:18:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:18:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:18:23][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 14:18:23][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 14:19:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:19:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 14:19:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 14:19:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 14:19:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 14:19:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 15:24:51][INFO][main.Main]success load log file
+[2024-03-19 15:24:51][INFO][mone.common.conf.ConfigManager]load config complete!!
+[2024-03-19 15:24:51][INFO][main.Main]process run!
+[2024-03-19 15:24:51][INFO][main.Main]pid@hostname:24872@jwmoon
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization...
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]Using logger: null
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.debug.stack.prefix is not defined
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.warn.threshold is not defined
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.sqltiming.error.threshold is not defined
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.statement.warn is not defined (using default value false)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.select is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.insert is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.update is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.delete is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.create is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.drivers is not defined
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]log4jdbc-logj2 properties initialization done.
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]DriverSpy intialization...
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+[2024-03-19 15:24:51][DEBUG][log4jdbc.debug]DriverSpy intialization done.
+[2024-03-19 15:24:51][INFO][mone.db.conn.DbManager]success initialize (TiberoSudoDB) : config/mybatis-tiberoSudo-config.xml
+[2024-03-19 15:24:52][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 15:24:52][INFO][mone.db.conn.DbManager]success initialize (TiberoDB) : config/mybatis-tibero-config.xml
+[2024-03-19 15:24:52][INFO][mone.schedule.scheduler.ScheduleManager][스케쥴링ON/OFF]  DB 수집 on 
+[2024-03-19 15:24:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 15:24:52][INFO][mone.schedule.scheduler.ScheduleManager]start schedule!
+[2024-03-19 15:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 15:25:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2023-01-01
+[2024-03-19 15:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 15:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 15:25:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-01-01
+[2024-03-19 15:25:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 15:25:51][DEBUG][mone.db.conn.TiberoSudoReconnectThread](OK)db connected  ::: TberoSudoDB 
+[2024-03-19 15:25:52][INFO][mone.db.conn.TiberoReconnectThread](OK)db connected  ::: TiberoDB 
+[2024-03-19 15:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 15:26:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 DB 조회 시작일 2024-02-16
+[2024-03-19 15:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_emphs_manage_area, SelectEndDt=null}
+[2024-03-19 15:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}
+[2024-03-19 15:26:00][INFO][mone.schedule.job.CollectData]:::::::::::: 중점관리지역 Detail 조회 시작일 2023-12-10
+[2024-03-19 15:26:00][INFO][mone.schedule.job.CollectData]{SelectFromDt=20230101, chkTablenm=vw_qw_wqmsm, SelectEndDt=null}

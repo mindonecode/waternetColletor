@@ -1,0 +1,48 @@
+package main;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import mone.db.dao.PrcsDAO;
+
+/**
+ * 프로그램 종료 시 처리
+ * 
+ * @author iby
+ *
+ */
+public class TiberoDBShutdownHookThread extends Thread {
+
+	// 로그
+	private static final Logger logger = LogManager.getLogger(TiberoDBShutdownHookThread.class);
+
+	/**
+	 * 프로그램 종료 시 실행 함수 TH_PROCS_STTUS, TN_PROCS_STTUS 테이블에 OFF:002 로 값 갱신
+	 */
+	public void run() {
+
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e1) {
+			logger.error("Exception Message sleep");
+		}
+
+		// 프로세스 상태 현황 & 이력 갱신 - OFF
+		PrcsDAO prcsDAO = new PrcsDAO();
+		try {
+			// prcsDAO.updateProcsStatus(ConstDef.PROCS_STTUS_CD.OFF, "Tibero");
+		} catch (Exception e) {
+			logger.error("Exception Message updateProcsStatus");
+		}
+
+		logger.info("Tibero Shutdown(OFF:002)");
+
+		try {
+			// time out시 retry 처리
+
+		} catch (Exception e) {
+			logger.error(this.getClass() + " :::::: " + e.toString());
+		}
+
+	}
+}
